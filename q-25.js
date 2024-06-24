@@ -19,7 +19,7 @@ let matrix = [
 
 
 // dynamic in size
-let fruits = ['apple', 'banana'];
+// let fruits = ['apple', 'banana'];
 fruits.push('mango');
 console.log(fruits); // ['apple', 'banana', 'mango']
 fruits.pop();
