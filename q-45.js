@@ -1,24 +1,19 @@
 // Arrow Function
 
-const greet = () => {
-    console.log('Hello, world!');
-};
-greet();
-
-// Parameters
 const greetPerson = name => {
-    console.log(`Hello, ${name}!`);
+    console.log("Hello Developers!");
 };
+
+greetPerson();
+
 
 const add = (a, b) => {
     return a + b;
 };
 
-greetPerson('Alice');
 console.log(add(5, 3));
 
-// Implicit Return
-// const add = (a, b) => a + b;
+// implicit return
 
-// console.log(add(5, 3));
-
+const sum = (a, b) => a+b;
+console.log(sum(5, 3));
