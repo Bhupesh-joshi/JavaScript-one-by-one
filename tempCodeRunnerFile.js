@@ -1,3 +1,6 @@
+function greet(name = 'Guest') {
+    console.log(`Hello, ${name}!`);
+}
 
-// console.log(message);
-// message = 'Hello, world!';
+greet();
+greet('Alice');
