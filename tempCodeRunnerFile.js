@@ -3,4 +3,4 @@ function greet(name = 'Guest') {
 }
 
 greet();
-// greet('Alice');
+greet('Alice');
