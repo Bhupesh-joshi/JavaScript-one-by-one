@@ -9,5 +9,5 @@ function newStyleSum(...numbers) {
     return numbers.reduce((total, num) => total + num, 0);
 }
 
-console.log(oldStyleSum(1, 2, 3));
+// console.log(oldStyleSum(1, 2, 3));
 console.log(newStyleSum(1, 2, 3));
