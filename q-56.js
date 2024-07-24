@@ -1,12 +1,12 @@
 // Proxies aur Reflection
 
 const target = {
-    // message: "Hello, world!"
+    message: "Hello, world!"
 };
 
 const handler = {
     get: function(target, property) {
-        return property in target ? target[property] : `Property ${property} does not exist.`;
+        // return property in target ? target[property] : `Property ${property} does not exist.`;
     }
 };
 
