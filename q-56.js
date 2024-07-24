@@ -1,7 +1,7 @@
 // Proxies aur Reflection
 
 const target = {
-    message: "Hello, world!"
+    // message: "Hello, world!"
 };
 
 const handler = {
