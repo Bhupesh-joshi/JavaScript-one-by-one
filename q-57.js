@@ -1,4 +1,9 @@
-// Proxies aur Reflection
+// Proxies
+
+// get
+// set
+// apply
+// construct
 
 const target = {
     message: "Hello, world!"
@@ -12,5 +17,5 @@ const handler = {
 
 const proxy = new Proxy(target, handler);
 
-console.log(proxy.message);
+console.log(proxy.message); 
 console.log(proxy.nonExistentProp);
