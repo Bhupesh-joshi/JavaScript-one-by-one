@@ -11,7 +11,7 @@ const handler = {
     }
 };
 
-// const proxy = new Proxy(target, handler);
+const proxy = new Proxy(target, handler);
 
 proxy.message = "Hi there!";
 console.log(proxy.message);
